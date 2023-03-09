@@ -1,1 +1,19 @@
 /* write your override styles here */
+#wall .tag-1{
+    display: none;
+}
+#wall #tag-2{
+    display: none;
+}
+#wall #tag-4{
+    display: inline;
+}
+#wall #tag-3.slick{
+    display: inline;
+}
+div#wall .parent #tag-5.slick{
+    display: inline;
+}
+div#wall div.parent div:last-child div#tag-6 {
+    display: inline;
+}
